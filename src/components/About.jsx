@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import myImage from "../assets/Myimg.jpeg";
+import myImage from "../assets/MyImg.jpeg";
 import Draggable from "react-draggable";
 import "./Terminal.css";
 
