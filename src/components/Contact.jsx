@@ -88,18 +88,6 @@ const Contact = (props) => {
               linkedin.com/in/mayank-kumar-b0715736a
             </a>
           </p>
-
-          <br />
-
-          <p className="msg">{">"} message</p>
-
-          <div className="contact_form">
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Your Email" />
-            <textarea placeholder="Your Message"></textarea>
-            <button>Send</button>
-          </div>
-
         </div>
       </div>
       </Draggable>

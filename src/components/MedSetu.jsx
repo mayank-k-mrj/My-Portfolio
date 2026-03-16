@@ -39,7 +39,7 @@ const MedSetu = (props) => {
         <Draggable nodeRef={nodeRef} handle=".main_window4">
       <div ref={nodeRef} className="main_window4" style={{position: "absolute", top: position.top, left: position.left, zIndex: layer}}>
         <div className="navigation" onMouseDown={() => props.bringtoFront(setLayer)}>
-          <div className="dv1" onClick={() => props.setOpen(prev => prev.filter(item => item !== 'med-setu'))}></div>
+          <div className="dv1" onClick={() => props.setOpen(prev => prev.filter(item => item !== 'medsetu'))}></div>
           <div className="dv2"></div>
           <div className="dv3"></div>
         </div>
@@ -51,9 +51,9 @@ const MedSetu = (props) => {
 
           <p className="projects">{">"} project_description</p>
           <p className="project_text">
-            Med-Setu is a healthcare assistance platform designed to help users
-            easily find nearby medical facilities, access health information,
-            and connect patients with healthcare services through a simple
+            Med-Setu is a medicine donation platform designed to help donors
+            easily donate medicines to nearby ngos, access medicine information,
+            and connect donors with ngo services through a simple
             digital interface.
           </p>
 
@@ -61,9 +61,9 @@ const MedSetu = (props) => {
 
           <p className="features">{">"} features</p>
           <p className="project_text">
-            • Find nearby hospitals and clinics <br/>
-            • Access basic health information <br/>
-            • Connect users with healthcare services <br/>
+            • Find nearby Donors and NGOs<br/>
+            • Donate unused and valid medicine information <br/>
+            • Connect donors with ngos <br/>
             • User-friendly interface for quick navigation
           </p>
 
@@ -71,10 +71,10 @@ const MedSetu = (props) => {
 
           <p className="tech">{">"} tech_stack</p>
           <p className="project_text">
-            • React <br/>
+            • HTLM<br/>
+            • CSS<br/>
             • Spring Boot <br/>
-            • MySQL <br/>
-            • REST API
+            • MySQL
           </p>
 
           <br />
@@ -82,7 +82,7 @@ const MedSetu = (props) => {
           <p className="git">{">"} github_repository</p>
           <p className="contact_link">
             <a
-              href="https://github.com/mayank-k-mrj"
+              href="https://github.com/mayank-k-mrj/MedSetu_Project"
               target="_blank"
               rel="noopener noreferrer"
             >
