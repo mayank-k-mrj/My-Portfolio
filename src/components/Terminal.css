@@ -44,6 +44,9 @@ h1{
     padding-left: 20px;
     cursor: pointer;
 }
+::placeholder{
+    color: #a6d18986;
+}
 .dv1, .dv2, .dv3{
     background: red;
     width: 16.2px;
