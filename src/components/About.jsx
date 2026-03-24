@@ -64,6 +64,9 @@ const About = (props) => {
 
                 <p className="skills">{">"} skills</p>
                 <p className="about_text">
+                  • <i className="devicon-java-plain colored"></i> Java <br />
+                  • <i className="devicon-c-plain colored"></i> C <br />
+                  • <i className="devicon-python-plain colored"></i> Python <br />
                   • <i className="devicon-html5-plain colored"></i> HTML<br />
                   • <i className="devicon-css3-plain colored"></i> CSS <br />
                   • <i className="devicon-javascript-plain colored"></i> JavaScript <br />
