@@ -65,14 +65,14 @@ const About = (props) => {
                 <p className="skills">{">"} skills</p>
                 <p className="about_text">
                   • <i className="devicon-java-plain colored"></i> Java <br />
-                  • <i className="devicon-c-plain colored"></i> C <br />
-                  • <i className="devicon-python-plain colored"></i> Python <br />
+                  • <i className="devicon-spring-original colored"></i> Spring Boot <br />
+                  • <i className="devicon-react-original colored"></i> React <br />
+                  • <i className="devicon-mysql-original colored"></i> MySQL <br />
                   • <i className="devicon-html5-plain colored"></i> HTML<br />
                   • <i className="devicon-css3-plain colored"></i> CSS <br />
                   • <i className="devicon-javascript-plain colored"></i> JavaScript <br />
-                  • <i className="devicon-react-original colored"></i> React <br />
-                  • <i className="devicon-spring-original colored"></i> Spring Boot <br />
-                  • <i className="devicon-mysql-original colored"></i> MySQL
+                  • <i className="devicon-c-plain colored"></i> C <br />
+                  • <i className="devicon-python-plain colored"></i> Python <br />
                 </p>
 
 
