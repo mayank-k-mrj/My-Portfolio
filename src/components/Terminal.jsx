@@ -58,7 +58,7 @@ const Terminal = (props) => {
   return (
 
     <div>
-      <Draggable nodeRef={nodeRef} handle=".main_window1">
+      <Draggable nodeRef={nodeRef} handle=".main_window1" cancel="input">
         <div ref={nodeRef} className="main_window1" style={{ position: "relative", zIndex: layer }}>
           <div className="navigation" onMouseDown={() => props.bringtoFront(setLayer)}>
             <div className="dv1" title='close' onClick={() => alert("Can't close this terminal")}></div>
