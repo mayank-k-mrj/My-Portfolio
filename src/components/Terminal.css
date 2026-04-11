@@ -25,6 +25,7 @@
     padding: 0.8rem;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 15px black;
+    overflow-y: scroll;
 }
 hr{
     color: rgb(96, 96, 96);

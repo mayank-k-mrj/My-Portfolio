@@ -94,7 +94,7 @@ const AlterEgo = (props) => {
           <p className="git">{">"} github_repository</p>
           <p className="contact_link">
             <a
-              href="https://github.com/your-repo-link"
+              href="https://github.com/mayank-k-mrj/AlterEgo"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -103,6 +103,16 @@ const AlterEgo = (props) => {
           </p>
 
           <br />
+          <p className="git">{">"} live_demo</p>
+            <p className="contact_link">
+              <a
+                href="https://alter-ego-rose.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                AlterEgo Live Demo
+              </a>
+            </p>
 
           <p className="stat">{">"} status</p>
           <p className="project_text">
