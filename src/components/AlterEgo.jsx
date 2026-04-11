@@ -98,7 +98,7 @@ const AlterEgo = (props) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              github.com/your-repo-link
+              github.com/mayank-k-mrj
             </a>
           </p>
 
