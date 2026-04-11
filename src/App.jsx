@@ -5,6 +5,7 @@ import Contact from './components/Contact'
 import HabitStreak from './components/HabitStreak'
 import Terminal from './components/Terminal'
 import MedSetu from './components/MedSetu'
+import AlterEgo from './components/AlterEgo'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
     <Terminal text = {text} setText = {setText} setOpen = {setOpen}  bringtoFront = {bringtoFront}/>
     {open.includes('about') && <About setOpen = {setOpen} zindex = {zindex} setZindex = {setZindex} bringtoFront = {bringtoFront}/>}
     {open.includes('contact') && <Contact setOpen = {setOpen} zindex = {zindex} setZindex = {setZindex} bringtoFront = {bringtoFront}/>}
+    {open.includes('alterego') && <AlterEgo setOpen = {setOpen} zindex = {zindex} setZindex = {setZindex} bringtoFront = {bringtoFront}/>}
     {open.includes('habit-streak-tracker') && <HabitStreak setOpen = {setOpen} zindex = {zindex} setZindex = {setZindex} bringtoFront = {bringtoFront}/>}
     {open.includes('medsetu') && <MedSetu setOpen = {setOpen} zindex = {zindex} setZindex = {setZindex} bringtoFront = {bringtoFront}/>}
     

@@ -41,6 +41,10 @@ const Terminal = (props) => {
             props.setOpen((prev) => [...prev, "medsetu"]);
             return
           }
+          else if (content.toLowerCase() === "alterego"){
+            props.setOpen((prev) => [...prev, "alterego"]);
+            return
+          }
           setIsDisplayed(true);
           alert("Type 'help' to continue");
         }
@@ -78,6 +82,7 @@ const Terminal = (props) => {
               <p className="contact">{">"} /Contact</p>
               <br />
               <p className="projects">{">"} Projects:</p>
+              <p className="ale">{">"} <u>/AlterEgo</u></p>
               <p className="hst">{">"} <u>/Habit-Streak-Tracker</u></p>
               <p className="medsetu">{">"} <u>/MedSetu</u></p>
               <br />
@@ -88,7 +93,7 @@ const Terminal = (props) => {
               <br />
               <p className='a' style={{ display: isDisplayed ? "block" : "none" }}>{">"} Type:
                 <br />
-                {">"} /about <br />{">"} /contact <br />{">"} /project-name <br /> to open new terminal.
+                {">"} /about <br />{">"} /contact <br />{">"} /{"<"}project-name{">"} <br /> to open new terminal.
               </p>
               <br />
               <label className='C' style={{ display: isDisplayed ? "inline-block" : "none" }} htmlFor="">{">"} C:/User/Mayank/</label>
